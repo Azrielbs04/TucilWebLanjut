@@ -36,6 +36,10 @@ $routes->match(['get', 'post'], '/auth/register', 'Auth::register');
 $routes->match(['get', 'post'], '/auth/index', 'Auth::index');
 $routes->match(['get', 'post'], '/auth/admin', 'Auth::admin');
 $routes->match(['get', 'post'], '/auth/about', 'Auth::about');
+$routes->match(['get', 'post'], '/auth/flstudio', 'Auth::flstudio');
+$routes->match(['get', 'post'], '/auth/ableton', 'Auth::ableton');
+$routes->match(['get', 'post'], '/auth/sonar', 'Auth::sonar');
+$routes->match(['get', 'post'], '/auth/logicpro', 'Auth::logicpro');
 /**
  * --------------------------------------------------------------------
  * Additional Routing
