@@ -1,7 +1,7 @@
     <div class="container">
         <form>
                 <div><img src="/img/iconlogin.png" id="icon" alt="User Icon" /></div>
-                <h2 class="text-center">LOGIN</h2>
+                <h2 class="text-center">REGISTER</h2>
                 <hr>
                 <div class="form-group">
                     <label >Email address</label>
